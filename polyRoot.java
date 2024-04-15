@@ -1,4 +1,4 @@
-public class polySqrt {
+public class polyRoot {
 	public static void main(String[] args) {
 		// cofficients of the polynomial
 		int a = Integer.parseInt(args[0]);
