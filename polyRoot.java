@@ -8,8 +8,8 @@ public class polyRoot {
 		double descriminant = b * b - 4.0 * a * c;
 
 		// using the quadratic formula
-		double root1 = (-b + Math.sqrt(descriminant)) / 2 * a;
-		double root2 = (-b - Math.sqrt(descriminant)) / 2 * a;
+		double root1 = (-b + Math.sqrt(descriminant)) / 2.0 * a;
+		double root2 = (-b - Math.sqrt(descriminant)) / 2.0 * a;
 
 		System.out.println(root1);
 		System.out.println(root2);
