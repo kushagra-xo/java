@@ -9,7 +9,7 @@ public class RightTriangle {
 		boolean check2 = (side1 * side1) == (side0 * side0) + (side2 * side2);
 		boolean check3 = (side2 * side2) == (side1 * side1) + (side0 * side0);
 
-		System.out.println(check1 || check2 || check3 && side0 >= 0 && side1 >= 0 && side2 >= 0);
+		System.out.println((check1 || check2 || check3) && side0 > 0 && side1 > 0 && side2 > 0);
 
 	}
 }
