@@ -24,6 +24,7 @@ public class sort {
 		 * Another approach that i found interesting was to use the 'sum'
 		 * approach where you take the sum of all inputs and subtract
 		 * max and min.
+		 * mid = input0 + input1 + input2 - min - max
 		 */
 
 		System.out.println(max);
